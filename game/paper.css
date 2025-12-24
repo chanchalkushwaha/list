@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: brown;
+    /* background-color: #081b31; */
+    color: white;
+    height: 3rem; /*backround ko set krega */
+    line-height: 3rem; /*vertically center */
+    
+}
+.choices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.choice{
+    height: 140px;
+    width: 140px;
+    
+}
+
+img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+} 
+
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 3rem;
+    font-size: 2rem;
+}
+
+#you-score,#comp-score{
+    font-size: 3rem;
+
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg{
+    font-size: 1.7rem;
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
